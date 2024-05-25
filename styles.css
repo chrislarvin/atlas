@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#hexmap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hex {
+    width: 50px;
+    height: 50px;
+    clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
+    background-color: #66ccff;
+    margin: 1px;
+}
